@@ -1,8 +1,6 @@
 .quality {
-    padding-top: 50px;
-    position: relative;
     padding-top: 200px;
-    
+    position: relative;
     &__container {
         background-color: #272E37;
         padding-top: 88px;
@@ -10,7 +8,6 @@
         padding-bottom: 176px;
         border-radius: 10px;
     }
-    
     &__background {
         width: 445px;
         height: 475px;
@@ -20,11 +17,9 @@
         top: calc(-200px);
         left: calc(655px);
     }
-    
     &__top {
         position: relative;
     }
-    
     &__header {
         font-family: 'Fraunces';
         font-style: normal;
@@ -33,112 +28,162 @@
         line-height: 48px;
         color: #FEFCF7;
     }
-    
     &__text {
         font-size: 16px;
         line-height: 26px;
         color: rgba(254, 252, 247, 0.8);
         width: 540px;
     }
-    
-    &__img {
-    }
 }
 
 @media only screen and (max-width:1310px) { 
     .quality {
-        
         &__container {
+            padding-bottom: 100px;
         }
-        
         &__background {
-            max-width: 445px;
-            height: 475px;
-            background-image: url(./../img/quality_background_.png);
-            background-repeat: no-repeat;
-            top: calc(-200px);
-            left: calc(545px);
-            background-size: 95%;
-        }
-        
-        &__top {
-            position: relative;
-        }
-        
-        &__header {
-            font-family: 'Fraunces';
-            font-style: normal;
-            font-weight: 900;
-            font-size: 40px;
-            line-height: 48px;
-            color: #FEFCF7;
-        }
-        
-        &__text {
-            font-size: 16px;
-            line-height: 26px;
-            color: rgba(254, 252, 247, 0.8);
-            width: 540px;
-        }
-        
-        &__img {
+            left: calc(555px);
         }
     }
- 
 }
-@media only screen and (max-width:1170px) { 
+@media only screen and (max-width:1200px) { 
     .quality {
         
         &__container {
-        }
-        
-        &__background {
-            background-size: 85%;
+            padding-top: 224px;
         }
         
         &__top {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
         }
-        
-        &__header {
+        &__background {
+            background-image: url(./../img/quality_table_bgi.png);
+            background-size: 100%;
+            width: 573px;
+            height: 320px;
+            top: calc(-344px);
+            left: calc(233px);
         }
-        
         &__text {
-        }
-        
-        &__img {
+            display: block;
+            max-width: 573px;
+            width: 100%;
+            margin: 0;
         }
     }
- 
 }
-@media only screen and (max-width:1110px) { 
+@media only screen and (max-width:1150px) { 
     .quality {
-        
-        &__container {
-        }
-        
         &__background {
-            background-size: 75%;
-        }
-        
-        &__top {
-        }
-        
-        &__header {
-        }
-        
-        &__text {
-        }
-        
-        &__img {
+            background-image: url(./../img/quality_table_bgi.png);
+            background-size: 100%;
+            width: 573px;
+            height: 320px;
+            top: calc(-344px);
+            left: calc(200px);
         }
     }
- 
 }
 @media only screen and (max-width:1100px) { 
     .quality {
-        
-        &__container {
+        &__background {
+            background-image: url(./../img/quality_table_bgi.png);
+            background-size: 100%;
+            width: 573px;
+            height: 320px;
+            top: calc(-344px);
+            left: calc(150px);
         }
     }
- 
+}
+@media only screen and (max-width:950px) { 
+    .quality {
+        &__container {
+            padding-left: 0;
+        }
+        &__background {
+            background-image: url(./../img/quality_table_bgi.png);
+            background-size: 100%;
+            width: 573px;
+            height: 320px;
+            top: calc(-344px);
+            left: calc(165px);
+        }
+    }
+}
+@media only screen and (max-width:850px) { 
+    .quality {
+        &__background {
+            background-image: url(./../img/quality_table_bgi.png);
+            background-size: 100%;
+            width: 573px;
+            height: 320px;
+            top: calc(-344px);
+            left: calc( 110px );
+        }
+    }
+}
+@media only screen and (max-width:770px) { 
+    .quality {
+        padding-top: 20px;
+        &__background {
+            background-image: url(./../img/quality_table_bgi.png);
+            background-size: 100%;
+            width: 573px;
+            height: 320px;
+            left: calc( 71px );
+        }
+    }
+}
+@media only screen and (max-width:720px) { 
+    .quality {
+        padding-top: 20px;
+        &__background {
+            background-image: url(./../img/quality_table_bgi.png);
+            background-size: 100%;
+            width: 573px;
+            height: 320px;
+            left: calc( 50px );
+        }
+    }
+}
+@media only screen and (max-width:700px) { 
+    .quality {
+        padding-top: 20px;
+        &__background {
+            background-image: url(./../img/quality_table_bgi.png);
+            background-size: 100%;
+            width: 573px;
+            height: 320px;
+            left: calc( 30px );
+        }
+    }
+}
+@media only screen and (max-width:670px) { 
+    .quality {
+        padding-top: 20px;
+        &__background {
+            background-image: url(./../img/quality_table_bgi.png);
+            background-size: 100%;
+            width: 573px;
+            height: 320px;
+            left: calc( 20px );
+        }
+    }
+}
+@media only screen and (max-width:670px) { 
+    .quality {
+        padding-top: 20px;
+        &__background {
+            background-size: 50%;
+            background-image: url(./../img/quality_table_bgi.png);
+            background-size: 100%;
+            width: 573px;
+            height: 320px;
+            left: calc( 20px );
+        }
+    }
 }
