@@ -856,7 +856,7 @@ ul, ol, li {
     width: 500px;
   }
   .quality__text {
-    max-width: 400px;
+    max-width: 300px;
     width: 100%;
   }
   .quality__header {
@@ -864,6 +864,19 @@ ul, ol, li {
     width: 100%;
     font-size: 28px;
     line-height: 28px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .quality {
+    padding-top: 20px;
+  }
+  .quality__background {
+    width: 45   0px;
+  }
+  .quality__text {
+    max-width: 300px;
+    width: 100%;
   }
 }
 
