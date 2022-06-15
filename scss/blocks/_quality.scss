@@ -172,18 +172,47 @@
             height: 320px;
             left: calc( 20px );
         }
+        &__header {
+            font-size: 32px;
+            line-height: 48px;
+        }
     }
 }
 @media only screen and (max-width:670px) { 
     .quality {
         padding-top: 20px;
         &__background {
-            background-size: 50%;
             background-image: url(./../img/quality_table_bgi.png);
             background-size: 100%;
-            width: 573px;
+            width: 550px;
             height: 320px;
-            left: calc( 20px );
+            left: calc( 30px );
+        }
+    }
+}
+@media only screen and (max-width:640px) { 
+    .quality {
+        padding-top: 20px;
+        &__background {
+            width: 520px;
+        }
+    }
+}
+@media only screen and (max-width:620px) { 
+    .quality {
+        padding-top: 20px;
+        &__background {
+            width: 500px;
+        }
+        &__text {
+            max-width: 400px;
+            width: 100%;
+        }
+        &__header {
+            max-width: 600px;
+            width: 100%;
+            font-size: 28px;
+line-height: 28px;
         }
     }
 }
