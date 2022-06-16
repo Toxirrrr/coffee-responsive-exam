@@ -598,7 +598,8 @@ ul, ol, li {
 }
 
 .footer {
-  width: 1320px;
+  max-width: 1320px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 150px;
@@ -636,6 +637,62 @@ ul, ol, li {
   font-size: 12px;
   line-height: 15px;
   color: #83888F;
+}
+
+@media only screen and (max-width: 1165px) {
+  .footer__list {
+    margin-right: 150px;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  .footer__list {
+    margin-right: 50px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .footer__list {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .footer__top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__nav {
+    margin-top: 35px;
+    margin-bottom: 65px;
+  }
+  .footer__list {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .footer {
+    margin-bottom: 72px;
+  }
+  .footer__top {
+    padding: 54px;
+  }
+  .footer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 24px;
+  }
 }
 
 .quality {
@@ -1115,6 +1172,48 @@ ul, ol, li {
   font-size: 16px;
   line-height: 26px;
   color: #333D4B;
+}
+
+@media only screen and (max-width: 750px) {
+  .countries__container {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .countries__item {
+    margin-right: 0px;
+    max-width: 200px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .countries__container {
+    text-align: center;
+  }
+  .countries__list {
+    gap: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .countries__item {
+    margin-right: 0px;
+    max-width: 200px;
+    width: 100%;
+  }
 }
 
 .work__container {

@@ -1,6 +1,7 @@
 .footer {
     
-    width: 1320px;
+    max-width: 1320px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 150px;
@@ -33,4 +34,146 @@
         line-height: 15px;
         color: #83888F;
     }
+}
+
+@media only screen and (max-width:1165px) { 
+    
+    .footer {
+        
+        &__container {
+        
+        }
+        
+        &__top {
+        
+        }
+        
+        &__nav {
+        
+        }
+        
+        &__list {
+            margin-right: 150px;
+        
+        }
+        
+        &__item {    
+        
+        }
+    }
+    
+}
+@media only screen and (max-width:1060px) { 
+    
+    .footer {
+        
+        &__container {
+        
+        }
+        
+        &__top {
+        
+        }
+        
+        &__nav {
+        
+        }
+        
+        &__list {
+            margin-right: 50px;
+        
+        }
+        
+        &__item {    
+        
+        }
+    }
+    
+}
+@media only screen and (max-width:1000px) { 
+    
+    .footer {
+        
+        &__container {
+        
+        }
+        
+        &__top {
+        
+        }
+        
+        &__nav {
+        
+        }
+        
+        &__list {
+            margin-right: 0;
+        
+        }
+        
+        &__item {    
+        
+        }
+    }
+    
+}
+@media only screen and (max-width:890px) { 
+    
+    .footer {
+        
+        &__container {
+        
+        }
+        
+        &__top {
+            flex-direction: column;
+        }
+        
+        &__nav {
+            margin-top: 35px;
+            margin-bottom: 65px;
+        
+        }
+        
+        &__list {
+            margin-right: 0;
+        
+        }
+        
+        &__item {    
+        
+        }
+    }
+    
+}
+@media only screen and (max-width:450px) { 
+    
+    .footer {
+
+        margin-bottom: 72px;
+        
+        &__container {
+        
+        }
+        
+        &__top {
+            padding: 54px;
+        }
+        
+        &__nav {
+        
+        }
+        
+        &__list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+        }
+        
+        &__item {    
+        
+        }
+    }
+    
 }
