@@ -482,3 +482,17 @@
         }
     }
 }
+@media only screen and (max-width:321px) { 
+    .quality {
+        &__background {
+            width: 230px;
+        }
+    }
+}
+@media only screen and (max-width:316px) { 
+    .quality {
+        &__background {
+            width: 210px;
+        }
+    }
+}

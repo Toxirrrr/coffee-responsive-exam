@@ -1129,6 +1129,18 @@ ul, ol, li {
   }
 }
 
+@media only screen and (max-width: 321px) {
+  .quality__background {
+    width: 230px;
+  }
+}
+
+@media only screen and (max-width: 316px) {
+  .quality__background {
+    width: 210px;
+  }
+}
+
 .countries {
   padding-top: 150px;
 }
